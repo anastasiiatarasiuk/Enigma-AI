@@ -1,0 +1,84 @@
+.contentWrapper {
+  display: flex;
+  gap: 36px;
+  position: absolute;
+  margin: 96px 120px;
+}
+
+.titleContainer {
+  width: 468px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 50px;
+  letter-spacing: -0.04em;
+  color: #fff;
+  background: linear-gradient(146deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 116px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.firstBtn {
+  background-image: linear-gradient(
+    120deg,
+    #7001d3 0,
+    #fe6272 6%,
+    #bd38ff 35%,
+    #1752ca 55%,
+    #1adbe3 93%
+  );
+  border-radius: 8px;
+  padding: 6px 16px;
+  backdrop-filter: blur(10px);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 154%;
+}
+
+.secondBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(247, 245, 245, 0.367);
+  border-radius: 8px;
+  padding: 6px 16px;
+  backdrop-filter: blur(20px);
+  box-shadow: -8px 0px 24px rgba(203, 203, 203, 0.3);
+  background: transparent;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 154%;
+}
+
+.btnIcon {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 3px;
+}
+
+.imgContainer {
+  width: 898px;
+  margin-right: -120px;
+}
+.image {
+  width: 100%;
+  border-radius: 20px;
+}
