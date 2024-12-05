@@ -6,28 +6,28 @@ const LeadersList = () => {
         <h2 className={s.title}>Trusted By Industry Leaders</h2>
         <ul className={s.list}>
           <li>
-            <img src="/src/images/Hero/amazon.webp" alt="amazon" />
+            <img src="/images/Hero/amazon.webp" alt="amazon" />
           </li>
           <li>
-            <img src="/src/images/Hero/apple.webp" alt="apple" />
+            <img src="/images/Hero/apple.webp" alt="apple" />
           </li>
           <li>
-            <img src="/src/images/Hero/youtube.webp" alt="YouTube" />
+            <img src="/images/Hero/youtube.webp" alt="YouTube" />
           </li>
           <li>
-            <img src="/src/images/Hero/figma.webp" alt="Figma" />
+            <img src="/images/Hero/figma.webp" alt="Figma" />
           </li>
           <li>
-            <img src="/src/images/Hero/google.webp" alt="Google" />
+            <img src="/images/Hero/google.webp" alt="Google" />
           </li>
           <li>
-            <img src="/src/images/Hero/x.webp" alt="X" />
+            <img src="/images/Hero/x.webp" alt="X" />
           </li>
           <li>
-            <img src="/src/images/Hero/vercel.webp" alt="Vercel" />
+            <img src="/images/Hero/vercel.webp" alt="Vercel" />
           </li>
           <li>
-            <img src="/src/images/Hero/airbnd.webp" alt="Airbnb" />
+            <img src="/images/Hero/airbnd.webp" alt="Airbnb" />
           </li>
         </ul>
       </div>

@@ -26,7 +26,7 @@ const Hero = () => {
             </div>
           </div>
           <div className={s.imgContainer}>
-            <img src="../../images/Hero/app.webp" alt="code" />
+            <img src="/public/images/Hero/app.webp" alt="code" />
           </div>
         </div>
         <div className={s.listContainer}>
