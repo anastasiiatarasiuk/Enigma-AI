@@ -1,31 +1,44 @@
-.container {
-  padding: 96px 115px;
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 96px 120px;
 }
-
 .titleContainer {
-  margin-bottom: 64px;
-  width: 851px;
+  margin: 0 auto 64px;
 }
 
 .title {
+  font-family: var(--font-family);
   font-weight: 600;
   font-size: 40px;
   letter-spacing: -0.04em;
+  text-align: center;
   background: linear-gradient(146deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
 }
+
 .accent {
-  font-family: serif;
   font-style: italic;
+  font-family: serif;
   font-weight: 400;
 }
 
 .subtitle {
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #d9d9d9;
+  width: 800px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
 }

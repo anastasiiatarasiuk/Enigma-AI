@@ -1,0 +1,33 @@
+.workflowList {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.workflowItem {
+  border: 1px solid #4e4e64;
+  border-radius: 20px;
+  padding: 20px;
+  width: 360px;
+  height: 210px;
+  background-color: #131315;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 170%;
+  color: #919191;
+  width: 310px;
+}

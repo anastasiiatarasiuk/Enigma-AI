@@ -8,7 +8,8 @@ const Hero = () => {
         <div className={s.contentWrapper}>
           <div className={s.titleContainer}>
             <h1 className={s.title}>
-              Unlock Your Coding Potential with Enigma Code-ai
+              Unlock Your Coding Potential with Enigma{" "}
+              <span className={s.accent}>Code-ai</span>
             </h1>
             <p className={s.description}>
               Learn coding and design with Enigma-AI, your ultimate destination

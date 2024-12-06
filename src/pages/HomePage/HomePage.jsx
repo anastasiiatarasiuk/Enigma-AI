@@ -1,5 +1,6 @@
 import Features from "../../components/Features/Features";
 import Hero from "../../components/Hero/Hero";
+import Workflow from "../../components/Workflow/Workflow";
 import s from "./HomePage.module.css";
 
 const HomePage = () => {
@@ -11,6 +12,11 @@ const HomePage = () => {
       <section>
         <Features />
       </section>
+      <div className={s.bgContainer}>
+        <section>
+          <Workflow />
+        </section>
+      </div>
     </div>
   );
 };
