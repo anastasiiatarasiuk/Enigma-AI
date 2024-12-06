@@ -1,0 +1,89 @@
+.titleAccent {
+  font-weight: 600;
+  font-size: 40px;
+  padding: 0px 40px;
+  letter-spacing: -0.04em;
+  background: linear-gradient(146deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 4px;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0em;
+  color: #919191;
+}
+
+.icon {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5;
+}
+
+.featuresList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.featuresListItem {
+  background-color: #131315;
+  border-radius: 20px;
+}
+
+.firstItem {
+  width: 813px;
+  padding: 20px;
+}
+
+.rightList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.secondItem {
+  padding: 20px 20px 46px;
+  width: 387px;
+  height: fit-content;
+}
+
+.featuresItemImages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: fit-content;
+  padding: 20px 0px;
+  height: 122px;
+}
+
+.bottomItems {
+  padding: 20px;
+  width: 396px;
+}
+
+.titleImage {
+  margin-bottom: 24px;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.textContainer {
+  display: flex;
+  gap: 12px;
+  width: 333px;
+}

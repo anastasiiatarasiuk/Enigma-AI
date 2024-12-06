@@ -1,0 +1,31 @@
+.container {
+  margin: 96px 115px;
+}
+
+.titleContainer {
+  margin-bottom: 64px;
+  width: 851px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: -0.04em;
+  background: linear-gradient(146deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+.accent {
+  font-family: "Instrument Serif", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #d9d9d9;
+}

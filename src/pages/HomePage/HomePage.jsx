@@ -1,3 +1,4 @@
+import Features from "../../components/Features/Features";
 import Hero from "../../components/Hero/Hero";
 import s from "./HomePage.module.css";
 
@@ -6,6 +7,9 @@ const HomePage = () => {
     <div>
       <section className={s.hero}>
         <Hero />
+      </section>
+      <section>
+        <Features />
       </section>
     </div>
   );
