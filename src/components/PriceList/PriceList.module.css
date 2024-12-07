@@ -1,0 +1,145 @@
+.priceList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
+}
+
+.card {
+  flex: 1;
+
+  z-index: 1;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 20px 30px;
+  max-width: 399px;
+  background: #04071a;
+}
+.titleContainer {
+  padding-left: 32px;
+  margin-bottom: 35px;
+}
+.title {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 24px;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: -0.04em;
+}
+
+.priceSecondary {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.underline {
+}
+
+.listContainer {
+  padding: 0px 32px;
+  margin-bottom: 35px;
+}
+.listTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 15px;
+}
+
+.includedList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.includedItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.checked {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5;
+}
+
+.checkedPrimary {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: #57fefe;
+  stroke-width: 1.5;
+}
+
+.cardBtn {
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  padding: 10px 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.05),
+    0 1px 0 0 rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.btnIcon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5;
+}
+
+.primary {
+  flex: 1.25;
+  z-index: 2;
+  border-radius: 20px;
+  padding: 20px 30px;
+  max-width: 399px;
+  border: 1px solid #57fefe;
+  background: #04071a;
+  margin: 0 -16px;
+}
+
+.primaryTitle {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 30px;
+  background: linear-gradient(138deg, #57fefe 0%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

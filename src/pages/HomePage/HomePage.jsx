@@ -1,5 +1,6 @@
 import Features from "../../components/Features/Features";
 import Hero from "../../components/Hero/Hero";
+import Price from "../../components/Price/Price";
 import Workflow from "../../components/Workflow/Workflow";
 import s from "./HomePage.module.css";
 
@@ -15,6 +16,9 @@ const HomePage = () => {
       <div className={s.bgContainer}>
         <section>
           <Workflow />
+        </section>
+        <section>
+          <Price />
         </section>
       </div>
     </div>
