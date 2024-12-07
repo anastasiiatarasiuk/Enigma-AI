@@ -1,0 +1,14 @@
+.notFound {
+  position: relative;
+}
+.notFound::before {
+  content: "";
+  position: absolute;
+  top: -150px;
+  left: 0;
+  width: 100%;
+  height: 1300px;
+  background: url("/images/Backgrounds/background-4.webp") no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
