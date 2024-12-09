@@ -205,18 +205,24 @@
   padding: 12px;
   background: rgba(255, 255, 255, 0.1);
   transition: 0.5s;
+  position: relative;
+  z-index: 1;
 }
 
 .sectionBtn:hover {
   box-shadow: 0px 0px 20px rgba(203, 203, 203, 0.3);
 }
+
 .accentBtn {
   color: #fff;
+  pointer-events: none;
 }
+
 .arrow {
   width: 16px;
   height: 16px;
   fill: none;
   stroke: #fff;
   stroke-width: 1.5;
+  pointer-events: none;
 }
