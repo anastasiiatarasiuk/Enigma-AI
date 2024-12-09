@@ -3,17 +3,18 @@
   justify-content: center;
   align-items: center;
   isolation: isolate;
+  margin-bottom: 52px;
 }
 
 .card {
   flex: 1;
-
   z-index: 1;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   padding: 20px 30px;
   max-width: 399px;
   background: #04071a;
+  position: relative;
 }
 .titleContainer {
   padding-left: 32px;
@@ -50,11 +51,37 @@
   font-size: 16px;
   line-height: 150%;
   color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.discount {
+  border-radius: 24px;
+  padding: 5px 8px;
+  background: #57fefe;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 117%;
+  color: #110e19;
 }
 
 .underline {
+  position: relative;
+  margin-bottom: 35px;
+  display: inline-block;
 }
-
+.underline::after {
+  content: "";
+  position: absolute;
+  width: 339px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
 .listContainer {
   padding: 0px 32px;
   margin-bottom: 35px;
@@ -114,6 +141,11 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  transition: 0.5s;
+}
+
+.cardBtn:hover {
+  box-shadow: 0px 0px 20px rgba(203, 203, 203, 0.3);
 }
 .btnIcon {
   width: 24px;
@@ -142,4 +174,49 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.firstBg {
+  position: absolute;
+  z-index: 0;
+  margin-top: 240px;
+  left: 0;
+}
+.secondBg {
+  position: absolute;
+  z-index: 0;
+  margin-top: -340px;
+  right: 0;
+}
+
+.sectionBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0em;
+  color: #b5b5b5;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: 0.5s;
+}
+
+.sectionBtn:hover {
+  box-shadow: 0px 0px 20px rgba(203, 203, 203, 0.3);
+}
+.accentBtn {
+  color: #fff;
+}
+.arrow {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5;
 }

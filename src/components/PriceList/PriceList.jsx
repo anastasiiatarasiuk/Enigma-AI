@@ -43,7 +43,7 @@ const PriceList = () => {
             <SvgIcon id="icon-right" className={s.btnIcon} />
           </button>
         </article>
-
+        <img src="/images/Backgrounds/price-bg1.png" className={s.firstBg} />
         <article className={s.primary}>
           <div className={s.titleContainer}>
             <h2 className={s.primaryTitle}>Pro</h2>
@@ -52,7 +52,9 @@ const PriceList = () => {
             </p>
             <div className={s.priceContainer}>
               <p className={s.price}>$8</p>
-              <span className={s.priceSecondary}>/ month</span>
+              <span className={s.priceSecondary}>
+                / month <p className={s.discount}>-20%</p>
+              </span>
             </div>
           </div>
           <span className={s.underline}></span>
@@ -94,7 +96,7 @@ const PriceList = () => {
             <SvgIcon id="icon-right" className={s.btnIcon} />
           </button>
         </article>
-
+        <img src="/images/Backgrounds/price-bg2.png" className={s.secondBg} />
         <article className={s.card}>
           <div className={s.titleContainer}>
             <h2 className={s.title}>Team</h2>
@@ -103,7 +105,9 @@ const PriceList = () => {
             </p>
             <div className={s.priceContainer}>
               <p className={s.price}>$10</p>
-              <span className={s.priceSecondary}>/ month</span>
+              <span className={s.priceSecondary}>
+                / month <p className={s.discount}>-20%</p>
+              </span>
             </div>
           </div>
           <span className={s.underline}></span>
@@ -134,6 +138,11 @@ const PriceList = () => {
           </button>
         </article>
       </section>
+      <button type="button" className={s.sectionBtn}>
+        Want enterprise features?
+        <span className={s.accentBtn}>Tell us more</span>
+        <SvgIcon id="icon-arrow" className={s.arrow} />
+      </button>
     </div>
   );
 };
