@@ -13,3 +13,6 @@
 .ant-collapse-item {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  width: 748px;
+}
