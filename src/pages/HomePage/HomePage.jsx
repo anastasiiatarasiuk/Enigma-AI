@@ -1,3 +1,4 @@
+import FAQ from "../../components/FAQ/FAQ";
 import Features from "../../components/Features/Features";
 import Hero from "../../components/Hero/Hero";
 import Price from "../../components/Price/Price";
@@ -19,6 +20,9 @@ const HomePage = () => {
         </section>
         <section>
           <Price />
+        </section>
+        <section>
+          <FAQ />
         </section>
       </div>
     </div>
