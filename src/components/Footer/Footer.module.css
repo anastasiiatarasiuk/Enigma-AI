@@ -1,0 +1,123 @@
+.container {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 32px 120px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentContainer {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.listsContainer {
+  display: flex;
+  gap: 13px;
+}
+
+.logoContentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 220px;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 188px;
+}
+
+.logoIcon {
+  stroke-width: 4px;
+  fill: none;
+  stroke: #fff;
+  width: 16px;
+  height: 16px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0em;
+  color: #919191;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0em;
+  color: #919191;
+  width: 175px;
+}
+
+.socialListContainer {
+  width: 188px;
+}
+
+.socialList {
+  display: flex;
+  gap: 24px;
+}
+
+.socialIcon {
+  width: 18px;
+  height: 18px;
+  fill: #919191;
+  stroke: none;
+}
+
+.productListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.resourcesListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.productList {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: 157px;
+}
+
+.resourcesList {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: 157px;
+}
+
+.listTitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0em;
+  color: #d0d6e0;
+}
+.listItem {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0em;
+  color: #919191;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
