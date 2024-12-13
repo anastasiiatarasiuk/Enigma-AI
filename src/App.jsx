@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import Layout from "./components/Layout/Layout";
 import Footer from "./components/Footer/Footer";
+import Loader from "./components/Loader/Loader";
 
 const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
 const ExtensionPage = lazy(() => import("./pages/ExtensionPage/ExtensionPage"));
@@ -23,7 +24,7 @@ function App() {
   return (
     <>
       <Layout>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/extension" element={<ExtensionPage />} />
@@ -38,8 +39,8 @@ function App() {
             <Route path="/terms" element={<TermsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
+          <Footer />
         </Suspense>
-        <Footer />
       </Layout>
     </>
   );
