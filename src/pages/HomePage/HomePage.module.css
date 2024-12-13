@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: 974px;
+  min-height: 974px;
 }
 
 .hero::before {
@@ -28,7 +28,7 @@
 
 .bgContainer {
   position: relative;
-  height: 1578px;
+  min-height: 1578px;
 }
 .bgContainer::before {
   content: "";
