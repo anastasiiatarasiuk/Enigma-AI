@@ -2,30 +2,24 @@ import FAQ from "../../components/FAQ/FAQ";
 import Features from "../../components/Features/Features";
 import Hero from "../../components/Hero/Hero";
 import Price from "../../components/Price/Price";
+import TakeOff from "../../components/TakeOff/TakeOff";
 import Workflow from "../../components/Workflow/Workflow";
 import s from "./HomePage.module.css";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <section className={s.hero}>
         <Hero />
       </section>
-      <section>
-        <Features />
-      </section>
+      <Features />
       <div className={s.bgContainer}>
-        <section>
-          <Workflow />
-        </section>
-        <section>
-          <Price />
-        </section>
-        <section>
-          <FAQ />
-        </section>
+        <Workflow />
+        <Price />
+        <FAQ />
+        <TakeOff />
       </div>
-    </div>
+    </>
   );
 };
 

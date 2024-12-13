@@ -138,11 +138,6 @@ const PriceList = () => {
           </button>
         </article>
       </section>
-      <button type="button" className={s.sectionBtn}>
-        Want enterprise features?
-        <span className={s.accentBtn}>Tell us more</span>
-        <SvgIcon id="icon-arrow" className={s.arrow} />
-      </button>
     </div>
   );
 };

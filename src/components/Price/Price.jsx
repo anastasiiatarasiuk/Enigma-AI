@@ -1,4 +1,5 @@
 import PriceList from "../PriceList/PriceList";
+import SvgIcon from "../SvgIcon/SvgIcon";
 import s from "./Price.module.css";
 
 const Price = () => {
@@ -17,6 +18,11 @@ const Price = () => {
           </p>
         </div>
         <PriceList />
+        <button type="button" className={s.sectionBtn}>
+          Want enterprise features?
+          <span className={s.accentBtn}>Tell us more</span>
+          <SvgIcon id="icon-arrow" className={s.arrow} />
+        </button>
       </div>
     </>
   );

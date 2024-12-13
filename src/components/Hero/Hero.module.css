@@ -77,15 +77,14 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  border: 1px solid rgba(247, 245, 245, 0.367);
-  border-radius: 8px;
+  border: 1px solid rgba(200, 148, 255, 0.65);
+  box-shadow: 0 8px 20px rgba(33, 4, 104, 0.2);
   padding: 6px 16px;
-  backdrop-filter: blur(20px);
-  background: transparent;
   font-weight: 500;
   font-size: 13px;
   line-height: 154%;
   transition: 0.5s;
+  border-radius: 10px;
 }
 .secondBtn:hover {
   box-shadow: 0px 0px 20px rgba(203, 203, 203, 0.3);
