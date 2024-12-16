@@ -1,0 +1,39 @@
+.environmentList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.environmentItem {
+  border: 1px solid #ffffff1f;
+  border-radius: 20px;
+  padding: 45px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.itemImg {
+  margin: 0 auto 25px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 auto;
+  width: 280px;
+}
+
+.itemTitle {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+.itemDescription {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
